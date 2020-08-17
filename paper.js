@@ -28,8 +28,7 @@ class Paper {
         push();
         translate(pos.x, pos.y);
         rotate(angle);
-        ellipseMode (RADIUS);
-        ellipse (pos.x, pos.y,15,15);
+       
         
         
         pop();
