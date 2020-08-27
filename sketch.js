@@ -45,7 +45,7 @@ function setup() {
 	dustbin2 = new Dustbin(1225,652,15,70);
 	dustbin3 = new Dustbin(1375,652,15,70);
 
-	paperBall = new Paper(600,200,20,PI/4);
+	paperBall = new Paper(100,200,20);
   
 }
 
@@ -74,7 +74,7 @@ function draw() {
 
 function keyPressed () {
    if (keyCode === UP_ARROW) {
-	   Matter.Body.applyForce (paperBall.body,paperBall.body.position,{x:1,y:-2.25});
+	   Matter.Body.applyForce (paperBall.body,paperBall.body.position,{x:2,y:-2.5});
 	   
 	   
 	
