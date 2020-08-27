@@ -10,7 +10,7 @@ class Paper {
         this.body = Bodies.circle(x,y,20, options);
         //this.width = 10;
         //this.height = 5;
-        Matter.Body.setAngle(this.body, angle);
+        
         World.add(world, this.body);
       }
       display(){
@@ -23,15 +23,7 @@ class Paper {
         keyPressed();
         ellipseMode (RADIUS);
         ellipse (pos.x, pos.y,15,15);
-        var angle = this.body.angle;
-        
-        push();
-        translate(pos.x, pos.y);
-        rotate(angle);
        
-        
-        
-        pop();
       }
       
     };
