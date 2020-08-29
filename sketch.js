@@ -45,7 +45,7 @@ function setup() {
 	dustbin2 = new Dustbin(1225,652,15,70);
 	dustbin3 = new Dustbin(1375,652,15,70);
 
-	paperBall = new Paper(100,200,20);
+	paperBall = new Paper(100,200);
   
 }
 
