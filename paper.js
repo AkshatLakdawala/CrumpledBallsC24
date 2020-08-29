@@ -1,5 +1,5 @@
 class Paper {
-    constructor(x, y, radius,angle) {
+    constructor(x, y) {
         var options = {
             isStatic : false,
             restitution:0.3,
@@ -7,10 +7,10 @@ class Paper {
             density:1.2
           
         }
-        this.body = Bodies.circle(x,y,20, options);
+        this.body = Bodies.circle(x,y,20, options,);
         //this.width = 10;
         //this.height = 5;
-        
+       
         World.add(world, this.body);
       }
       display(){
@@ -22,8 +22,9 @@ class Paper {
         
         keyPressed();
         ellipseMode (RADIUS);
-        ellipse (pos.x, pos.y,15,15);
-       
+        ellipse (pos.x, pos.y,15,15 );
+        
+        this.body.radius = ellipse.radius;
       }
       
     };
