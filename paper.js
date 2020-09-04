@@ -20,11 +20,10 @@ class Paper {
         
         fill("purple");
         
-        keyPressed();
+       
         ellipseMode (RADIUS);
-        ellipse (pos.x, pos.y,15,15 );
+        ellipse (pos.x, pos.y,20,20 );
         
-        this.body.radius = ellipse.radius;
       }
       
     };
