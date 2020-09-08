@@ -41,11 +41,11 @@ function setup() {
 	//paperBall = new Paper(100,200,20);
 	ground = new Ground(200,690,3200,10);
 
-	dustbin1 = new Dustbin(1300,680,150,15);
-	dustbin2 = new Dustbin(1225,652,15,70);
-	dustbin3 = new Dustbin(1375,652,15,70);
+	dustbin1 = new Dustbin(1100,680,150,15);
+	dustbin2 = new Dustbin(1025,652,15,70);
+	dustbin3 = new Dustbin(1175,652,15,70);
 
-	paperBall = new Paper(450,200);
+	paperBall = new Paper(250,200);
   
 }
 
